@@ -1,0 +1,44 @@
+{
+  "title": "Leaderboard",
+  "type": "object",
+  "properties": {
+    "score list": {
+      "type": "list",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "streak": {
+          "type": "int"
+        },
+        "current_round_score": {
+          "type": "int"
+        },
+        "max_streak": {
+          "type": "int"
+        },
+        "highest_round_score": {
+          "type": "int"
+        },
+        "total_score": {
+          "type": "int"
+        },
+        "max_total_score": {
+          "type": "int"
+        }
+      },
+      "required": [
+        "username",
+        "streak",
+        "current_round_score",
+        "max_streak",
+        "highest_round_score",
+        "total_score",
+        "max_total_score"
+      ]
+    }
+  },
+  "required": [
+    "score list"
+  ]
+}

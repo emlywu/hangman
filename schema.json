@@ -1,0 +1,21 @@
+{
+  "title": "Category",
+  "type": "object",
+  "properties": {
+    "category_name": {
+      "type": "string"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "category_name",
+    "words"
+  ]
+}
